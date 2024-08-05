@@ -1,0 +1,23 @@
+.letter-selection-game {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.letters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}

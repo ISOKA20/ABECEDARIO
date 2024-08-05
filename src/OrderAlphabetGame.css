@@ -1,0 +1,49 @@
+.order-alphabet-game {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .ordered-letters {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .letters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .letters button {
+    font-size: 2rem;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #ffeb3b;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  
+  .letters button:hover {
+    transform: scale(1.1);
+    background-color: #fdd835;
+  }
+  
+  .reset-button {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  
+  .reset-button:hover {
+    transform: scale(1.1);
+    background-color: #388e3c;
+  }
+  
